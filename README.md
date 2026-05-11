@@ -2,11 +2,19 @@
 
 > Java 21 and 25 LTS for working engineers — the features that change how you write code, not the features that look good in slides.
 
+![Java](https://img.shields.io/badge/Java-21_LTS-ED8B00?logo=openjdk&logoColor=white) ![Java](https://img.shields.io/badge/Java-25_LTS-ED8B00?logo=openjdk&logoColor=white) ![License: MIT](https://img.shields.io/badge/License%3A_MIT-MIT-blue)
+
 Companion code for the book **Modern Java in Practice: Java 21 and 25 LTS for Working Engineers** by [Umur Inan](https://umurinan.com).
 
 ## About the book
 
 A focused tour of the Java language features and APIs that landed in Java 17 → 21 → 25 LTS and that an engineer should actually reach for in production code. Each chapter takes one feature — records, sealed types, pattern matching, virtual threads, structured concurrency, scoped values, stable values, sequenced collections, gatherers, FFM, vector API, the class-file API, ZGC, JFR, leyden-aot — and shows what it changes, where it pays off, and where it doesn't.
+
+## Prerequisites
+
+- Java 21 LTS for most chapters ([Temurin](https://adoptium.net))
+- Java 25 LTS for preview-feature chapters
+- Maven 3.9+
 
 ## Quick start
 
