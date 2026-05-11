@@ -1,0 +1,11 @@
+target/
+*.jsa
+*.aot
+*.aotconf
+runtime/
+*.dmg
+*.msi
+*.exe
+*.deb
+*.rpm
+*.app/
