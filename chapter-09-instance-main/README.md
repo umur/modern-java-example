@@ -52,8 +52,8 @@ Hello, modern Java.
 
 ## Files
 
-- `pom.xml` — Maven config with `--enable-preview` for both compile and exec, and an exclude for `Hello.java`.
-- `src/main/java/com/umur/modernjava/ch09/InstanceMainExamples.java` — entry point. Uses an instance `void main()`, calls helpers, delegates to the other forms.
-- `src/main/java/com/umur/modernjava/ch09/EchoArgs.java` — instance `main(String[] args)` example.
-- `src/main/java/com/umur/modernjava/ch09/TraditionalMain.java` — the 35-year-old static form, for contrast.
-- `src/main/java/com/umur/modernjava/ch09/Hello.java` — implicit-class form. Run via the source launcher, not Maven.
+- `pom.xml`: Maven config with `--enable-preview` for both compile and exec, and an exclude for `Hello.java`.
+- `src/main/java/com/umur/modernjava/ch09/InstanceMainExamples.java`: entry point. Uses an instance `void main()`, calls helpers, delegates to the other forms.
+- `src/main/java/com/umur/modernjava/ch09/EchoArgs.java`: instance `main(String[] args)` example.
+- `src/main/java/com/umur/modernjava/ch09/TraditionalMain.java`: the 35-year-old static form, for contrast.
+- `src/main/java/com/umur/modernjava/ch09/Hello.java`: implicit-class form. Run via the source launcher, not Maven.
